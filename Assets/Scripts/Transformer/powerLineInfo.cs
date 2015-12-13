@@ -19,7 +19,7 @@ public class powerLineInfo : MonoBehaviour {
 	public void drawLine(Color color, Vector3 start, Vector3 end, float loss){
 
 		lineRenderer = gameObject.GetComponent<LineRenderer> ();
-		lineRenderer.material = new Material(Shader.Find("Particles/Additive"));
+		//lineRenderer.material = new Material(Shader.Find("Particles/Additive"));
 		lineRenderer.SetWidth (3f, 3f);
 		lineRenderer.SetColors(color, color);
 		lineRenderer.SetPosition (0, start);
