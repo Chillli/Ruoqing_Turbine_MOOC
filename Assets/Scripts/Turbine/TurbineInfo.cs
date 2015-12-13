@@ -24,7 +24,10 @@ public class TurbineInfo : InfoItem
     void Update()
     {
         //CalculateOutput();
-		powerLoss = gameObject.transform.GetChild (1).GetComponent<powerLineInfo> ().loss;
+		if (Application.loadedLevelName == "Level1")
+			powerLoss = 1f;
+		else
+			powerLoss = gameObject.transform.GetChild (1).GetComponent<powerLineInfo> ().loss;
 		//powerLoss = 1f;
 		output = (int) (originalOutput * powerLoss);
     }

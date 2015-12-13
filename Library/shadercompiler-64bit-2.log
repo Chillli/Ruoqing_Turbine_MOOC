@@ -1,58 +1,6 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-168427520
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-175939584
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=1 type=0 insize=3447 outsize=395 kw=WATER_REFRACTIVE pd= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3447 outsize=3364 kw=WATER_REFRACTIVE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3447 outsize=3754 kw=FOG_EXP2 WATER_REFRACTIVE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3447 outsize=395 kw=WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3447 outsize=2281 kw=WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=3447 outsize=2363 kw=FOG_EXP2 WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3447 outsize=3754 kw=FOG_EXP2 WATER_REFLECTIVE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3447 outsize=247 kw=WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=3447 outsize=2803 kw=WATER_SIMPLE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3447 outsize=322 kw=FOG_EXP2 WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3447 outsize=2241 kw=FOG_EXP2 WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=773 kw=WATER_REFRACTIVE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=847 kw=FOG_EXP2 WATER_REFRACTIVE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=3232 kw=FOG_EXP2 WATER_REFRACTIVE pd= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3447 outsize=6 kw=WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=693 kw=WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2582 kw=WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3447 outsize=6 kw=FOG_EXP2 WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=749 kw=FOG_EXP2 WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2883 kw=FOG_EXP2 WATER_REFLECTIVE pd= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3447 outsize=6 kw=WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=611 kw=WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3447 outsize=2241 kw=WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3447 outsize=6 kw=FOG_EXP2 WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3447 outsize=667 kw=FOG_EXP2 WATER_SIMPLE pd= ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=3447 outsize=3729 kw=FOG_EXP2 WATER_SIMPLE pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
 End of pipe
 
 Quitting shader compiler process
