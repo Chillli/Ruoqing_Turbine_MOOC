@@ -13,8 +13,17 @@ public class beginUI : MonoBehaviour {
 	
 	}
 
-	public void loadChapter(){
-		Application.LoadLevel ("Scene0"); 
+	public void loadChapter1_1(){
+		Application.LoadLevel ("Level1"); 
+	}
+
+
+	public void loadChapter1_2(){
+		Application.LoadLevel ("Level2"); 
+	}
+
+	public void loadChapter1_3(){
+		Application.LoadLevel ("Level3"); 
 	}
 
 }
