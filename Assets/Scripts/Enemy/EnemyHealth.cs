@@ -30,5 +30,6 @@ public class EnemyHealth : MonoBehaviour {
         GameObject.FindGameObjectWithTag("enemyManager").transform.GetComponent<EnemyManager>().rainAmount -= gameObject.transform.GetComponent<EnemyInfo>().waterAmount;
 		MoneyManager.money += gameObject.transform.GetComponent<EnemyInfo>().rewards;
 		Destroy (gameObject);
+        KilledDrops.killedDrops += 1;
 	}
 }
